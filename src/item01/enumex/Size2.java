@@ -16,5 +16,6 @@ public enum Size2 {
 	public static void main(String[] args) {
 		System.out.println(Size2.MIDDLE.getClass());
 		System.out.println(Size2.MIDDLE instanceof Size2);
+		System.out.println(Size2.MIDDLE.getAbbr());
 	}
 }
